@@ -1,0 +1,26 @@
+.member {
+  margin: 20px 0;
+  position: relative;
+  height: 120px;
+  .thumbnail {
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+  .detail {
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    .name {
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}

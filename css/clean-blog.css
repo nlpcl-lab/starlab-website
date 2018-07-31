@@ -1,7 +1,8 @@
+@import url("//fonts.googleapis.com/earlyaccess/nanumgothic.css");
 body {
-  font-size: 20px;
+  font-size: 17px;
   color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Nanum Gothic', 'Lora', 'Times New Roman', serif;
 }
 
 p {
@@ -40,9 +41,9 @@ blockquote {
 }
 
 .section-heading {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .caption {
@@ -257,7 +258,7 @@ header.masthead .post-heading .meta {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Nanum Gothic', 'Lora', 'Times New Roman', serif;
 }
 
 header.masthead .post-heading .meta a {
@@ -312,7 +313,7 @@ header.masthead .post-heading .meta a {
 
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
@@ -335,13 +336,13 @@ header.masthead .post-heading .meta a {
   border-radius: 0;
   background: none;
   box-shadow: none !important;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Nanum Gothic', 'Lora', 'Times New Roman', serif;
 }
 
 .floating-label-form-group input::-webkit-input-placeholder,
 .floating-label-form-group textarea::-webkit-input-placeholder {
   color: #868e96;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Nanum Gothic', 'Lora', 'Times New Roman', serif;
 }
 
 .floating-label-form-group label {

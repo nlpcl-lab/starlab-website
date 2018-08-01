@@ -1,3 +1,9 @@
+.img-figure {
+  width: 100%;
+  max-width: 650px;
+}
+
+
 // Global styling for this template
 body {
   font-size: 17px;
@@ -6,7 +12,7 @@ body {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.65;
   margin: 30px 0;
   a {
     text-decoration: underline;

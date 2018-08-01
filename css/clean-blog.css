@@ -212,7 +212,7 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 200px 0 150px;
+  padding: 100px 0;
   color: white;
 }
 
@@ -220,7 +220,7 @@ header.masthead .site-heading {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 150px 0;
+    padding: 130px 0 100px 0;
   }
 }
 

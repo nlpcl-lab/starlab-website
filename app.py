@@ -18,7 +18,7 @@ def index_view():
 
 @app.route('/downloads')
 def downloads_view():
-    return render_template('download.html')
+    return render_template('downloads.html')
 
 
 if __name__ == '__main__':

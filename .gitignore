@@ -1,4 +1,17 @@
+# InteliJ IDEA
+*.iml
+.idea/
+
+# Python
+*.pyc
+*.mo
+
+/ENV/
+
 *.iml
 .idea
 
+__pycache__/
 config.py
+
+

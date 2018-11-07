@@ -208,6 +208,7 @@ header.masthead .overlay {
   width: 100%;
   background-color: #012d58;
   opacity: 0.5;
+  filter: blur(3px);
 }
 
 header.masthead .page-heading,

@@ -11,6 +11,6 @@ class DownloadLog(db.Document):
 
     meta = {
         'indexes': [
-            'seq',
+            'key',
         ]
     }

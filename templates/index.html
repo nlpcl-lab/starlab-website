@@ -11,17 +11,18 @@
     <link rel="shortcut icon" href="/static/img/favicon.ico"/>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet"
+          type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="../static/css/clean-blog.css?v=6" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/clean-blog.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
                     <a class="nav-link" href="javascript:softScrollTo('#about')">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/template/downloads.html">downloads</a>
+                    <a class="nav-link" href="/templates/downloads.html">downloads</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/NLPCL-LAB" target="_blank">github</a>
@@ -67,7 +68,8 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="site-heading">
-                    <h1 style="position: relative;">NLP<span style="font-size: 11px; position:absolute; top: 20px; width: 12px;">☆</span> CL - StarLab
+                    <h1 style="position: relative;">NLP<span
+                            style="font-size: 11px; position:absolute; top: 20px; width: 12px;">☆</span> CL - StarLab
                     </h1>
                     <span class="subheading">자연언어처리 및 계산언어학 연구실</span>
                 </div>
@@ -432,11 +434,11 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
 <!-- Custom scripts for this template -->
-<script src="../static/js/clean-blog.js?v=2"></script>
+<script src="{{ url_for('static', filename='js/clean-blog.js') }}"></script>
 </body>
 
 </html>

@@ -43,7 +43,7 @@
             <!-- end of downloads-->
 
             <div class="post-preview">
-                <a href="post.html">
+                <a href="https://github.com/fgaim/artext/archive/v0.2.5.zip" target="_blank" onclick="javascript:logging('Artext')">
                     <h2 class="post-title">
                         Artext: Artificial Text Generation
                     </h2>
@@ -52,8 +52,9 @@
                     </h3>
                 </a>
                 <p class="post-meta">
-                    <a href="https://github.com/fgaim/artext/archive/v0.2.5.zip" target="_blank">DOWNLOAD</a> <br/>
-                    Posted by <a href="#">Fitsum</a> on November 7, 2018</p>
+                    Total downloads: {{DownloadLog.objects.filter(key='Artext').count()}} <br/>
+                    Posted by <a href="http://nlp.kaist.ac.kr/~fgaim" target="_blank">Fitsum</a> on November 7, 2018 <br/>
+                </p>
             </div>
             <hr>
         </div>
@@ -62,6 +63,23 @@
 
 {% include 'base/footer.html' %}
 {% include 'base/script.html' %}
+
+<script>
+  function logging(key) {
+    $.ajax({
+      url: '/api/download/log',
+      contentType: 'application/json',
+      type: 'POST',
+      data: JSON.stringify({
+        key: key,
+      }),
+    }).done(function (data) {
+
+    }).fail(function (data) {
+      console.error(data);
+    })
+  }
+</script>
 
 </body>
 

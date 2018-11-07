@@ -1,5 +1,5 @@
 import os, sys, datetime, random
-from flask import Flask, session, g, request, render_template, redirect
+from flask import Flask, session, g, request, render_template, redirect, Response
 from flask_mongoengine import MongoEngine
 
 import config
@@ -18,7 +18,17 @@ def index_view():
 
 @app.route('/downloads')
 def downloads_view():
-    return render_template('downloads.html')
+    return render_template('downloads.html', DownloadLog=DownloadLog)
+
+
+@app.route('/api/download/log', methods=['POST'])
+def annotate():
+    data = request.get_json()
+    key = data['key']
+    log = DownloadLog(key=key, ip=request.remote_addr)
+    log.save()
+
+    return Response('success', status=200)
 
 
 if __name__ == '__main__':

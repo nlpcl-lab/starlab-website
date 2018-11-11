@@ -22,7 +22,7 @@ def downloads_view():
 
 
 @app.route('/api/download/log', methods=['POST'])
-def annotate():
+def download_log():
     data = request.get_json()
     key = data['key']
     log = DownloadLog(key=key, ip=request.remote_addr)

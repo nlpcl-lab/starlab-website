@@ -24,26 +24,33 @@
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <!--
-                    TODO: To add a new download entry, copy the template below and put it
-                    outside this comment block and fill the details such as link and description.
-                    The file itself has to be uploaded somewhere else.
-                    Please. make sure that the link works after you add it.
-
-                <div class="col-md-12">
-                    <div class="download">
-                        <div class="detail">
-                            <span class="title">DOWNLOAD-TITLE</span> <br/>
-                            one line descriptiongoes here.<br/>
-                            [optional] 3-4 lines description if necessary.<br/>
-                            <a href="#link-here" target="_blank">DOWNLOAD</a>
-                        </div>
-                    </div>
-                </div>
-                -->
-            <!-- end of downloads-->
+            Note: To add a new download entry, copy the template below and put it
+            outside this comment block and fill the details:
+                [DOWNLOAD-LINK], [REPO-NAME], [REPO-TITLE], [DESCRIPTION], [AUTHOR-ID], [AUTHOR-NAME].
+            The file itself has to be uploaded somewhere else.
+            Please make sure that the link works after you have added it.
 
             <div class="post-preview">
-                <a href="https://github.com/fgaim/artext/archive/v0.2.5.zip" target="_blank" onclick="javascript:logging('Artext')">
+                <a href="[DOWNLOAD-LINK]" target="_blank" 
+                        onclick="javascript:logging('[REPO-NAME]')">
+                    <h2 class="post-title">
+                        [REPO-TITLE]
+                    </h2>
+                    <h3 class="post-subtitle">
+                        [DESCRIPTION] <br/>
+                    </h3>
+                </a>
+                <p class="post-meta">
+                    Total downloads: {{DownloadLog.objects.filter(key='[REPO-TITLE]').count()}} <br/>
+                    Last Update: [Date Month Year], by <a href="http://nlp.kaist.ac.kr/~[AUTHOR-ID]" target="_blank">
+                    [AUTHOR-NAME]</a>
+                </p>
+            </div>
+            -->
+
+            <div class="post-preview">
+                <a href="https://github.com/fgaim/artext/archive/v0.2.5.zip" target="_blank" 
+                        onclick="javascript:logging('Artext')">
                     <h2 class="post-title">
                         Artext: Artificial Text Generation
                     </h2>
@@ -56,6 +63,9 @@
                     Last Update: 7 November 2018, by <a href="http://nlp.kaist.ac.kr/~fgaim" target="_blank">Fitsum</a>
                 </p>
             </div>
+
+
+            <!-- end of downloads-->
             <hr>
         </div>
     </div>

@@ -14,4 +14,4 @@ sudo nohup python3 app.py &
 
 ## Contributors
 
-Seungwon, Fitsum
+[Seungwon](http://nlp.kaist.ac.kr/~swyoon), [Fitsum](http://nlp.kaist.ac.kr/~fgaim)

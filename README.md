@@ -12,3 +12,6 @@ sudo nohup python3 app.py &
 * BlackrockDigital's startbootstrap-clean-blog repository [[github]](https://github.com/BlackrockDigital/startbootstrap-clean-blog)
 
 
+## Contributor
+
+Seungwon, Fitsum

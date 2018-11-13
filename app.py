@@ -10,10 +10,15 @@ app = Flask(__name__)
 app.config.from_object('config.Config')
 db = MongoEngine(app)
 
+
 @app.before_request
 def before_request():
-    g.last_ip = request.remote_addr
+    if request.headers.getlist("X-Forwarded-For"):
+        g.last_ip = request.headers.getlist("X-Forwarded-For")[0]
+    else:
+        g.last_ip = request.remote_addr
     print('g.last_ip :', g.last_ip)
+
 
 @app.route('/')
 def index_view():

@@ -27,6 +27,10 @@ def downloads_view():
 def download_log():
     data = request.get_json()
     key = data['key']
+
+    print(".environ['REMOTE_ADDR'] :", request.environ['REMOTE_ADDR'])
+    print("request.remote_addr :", request.remote_addr)
+
     log = DownloadLog(key=key, ip=request.remote_addr)
     log.save()
 

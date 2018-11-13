@@ -57,7 +57,7 @@
   },
   {
     "repo-name": "argument-reasoning-comprehension",
-    "repo-title": "Context Dependent Evidence Detection ",
+    "repo-title": "Argument Reasoning Comprehension",
     "description": "The codes, targeting a task: SemEval 2018 Task12, the argument reasoning comprehension task.",
     "last-update": "7 November 2018",
     "download-link": "/static/zip/argument-reasoning-comprehension.zip"

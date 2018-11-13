@@ -17,7 +17,6 @@ def before_request():
         g.last_ip = request.headers.getlist("X-Forwarded-For")[0]
     else:
         g.last_ip = request.remote_addr
-    print('g.last_ip :', g.last_ip)
 
 
 @app.route('/')
@@ -40,7 +39,7 @@ def download_log():
     print(".environ['REMOTE_ADDR'] :", request.environ['REMOTE_ADDR'])
     print("request.remote_addr :", request.remote_addr)
 
-    log = DownloadLog(key=key, ip=request.remote_addr)
+    log = DownloadLog(key=key, ip=g.last_ip)
     log.save()
 
     return Response('success', status=200)

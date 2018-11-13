@@ -48,22 +48,23 @@
             </div>
             -->
 
+            {% for download in downloads %}
             <div class="post-preview">
-                <a href="https://github.com/fgaim/artext/archive/v0.2.5.zip" target="_blank" 
-                        onclick="javascript:logging('Artext')">
+                <a href="{{download['download-link']}}" target="_blank"
+                   onclick='javascript:logging("{{download['repo-name']}}")'>
                     <h2 class="post-title">
-                        Artext: Artificial Text Generation
+                        {{download['repo-title']}}
                     </h2>
                     <h3 class="post-subtitle">
-                        Probabilistic Noising of Natural Language <br/>
+                        {{download['description']}} <br/>
                     </h3>
                 </a>
                 <p class="post-meta">
-                    Total downloads: {{DownloadLog.objects.filter(key='Artext').count()}} <br/>
-                    Last Update: 7 November 2018, by <a href="http://nlp.kaist.ac.kr/~fgaim" target="_blank">Fitsum</a>
+                    Total downloads: {{DownloadLog.objects.filter(key=download['repo-name']).count()}} <br/>
+                    Last Update: {{download['last-update']}}, by NLPCL Research Group
                 </p>
             </div>
-
+            {% endfor %}
 
             <!-- end of downloads-->
             <hr>

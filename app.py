@@ -1,4 +1,4 @@
-import os, sys, datetime, random
+import os, sys, datetime, random, json
 from flask import Flask, session, g, request, render_template, redirect, Response
 from flask_mongoengine import MongoEngine
 
@@ -18,7 +18,9 @@ def index_view():
 
 @app.route('/downloads')
 def downloads_view():
-    return render_template('downloads.html', DownloadLog=DownloadLog)
+    with open('./downloads.json') as f:
+        downloads = json.load(f)
+        return render_template('downloads.html', downloads=downloads, DownloadLog=DownloadLog)
 
 
 @app.route('/api/download/log', methods=['POST'])

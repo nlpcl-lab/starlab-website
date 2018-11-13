@@ -1,6 +1,21 @@
 # starlab-website
 
-This is a homepage that introduces NLP☆CL - StarLab.
+This is a homepage that introduces NLP☆CL.
+
+To add a new download entry, copy the template below and put it on donwloads.json and fill the details.
+The file itself has to be uploaded somewhere else.
+Please make sure that the link works after you have added it.
+
+**example**
+```
+{
+    "repo-name": "artext",
+    "repo-title": "Artext: Artificial Text Generation",
+    "description": "Probabilistic Noising of Natural Language",
+    "last-update": "7 November 2018",
+    "download-link": "/static/zip/artext.zip"
+},
+```
 
 ## Run
 ```bash

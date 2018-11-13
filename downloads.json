@@ -9,28 +9,28 @@
   {
     "repo-name": "summerization",
     "repo-title": "News Summarization",
-    "description": "Tensorflow Implementation of Deep Learning Approach for News Summarization Task via Sequence-to-sequence Model with Pointer.",
+    "description": "Tensorflow Implementation of Deep Learning Approach for News Summarization Task via Sequence-to-sequence Model with Pointer",
     "last-update": "7 November 2018",
     "download-link": "/static/zip/summerization.zip"
   },
   {
     "repo-name": "event-extraction",
     "repo-title": "Event Extraction",
-    "description": "Tensorflow Implementation of Deep Learning Approach for Event Extraction(ACE 2005) via Dynamic Multi-Pooling Convolutional Neural Networks.",
+    "description": "Tensorflow Implementation of Deep Learning Approach for Event Extraction(ACE 2005) via Dynamic Multi-Pooling Convolutional Neural Networks",
     "last-update": "7 November 2018",
     "download-link": "/static/zip/event-extraction.zip"
   },
   {
     "repo-name": "gender-stereotyping-word-embedding",
     "repo-title": "Mitigating Stereotypes in Word Embedding",
-    "description": "Mitigating Stereotypes in Word Embedding through Sentiment Modulation.",
+    "description": "Mitigating Stereotypes in Word Embedding through Sentiment Modulation",
     "last-update": "7 November 2018",
     "download-link": "/static/zip/gender-stereotyping-word-embedding.zip"
   },
   {
     "repo-name": "annotation-tool",
     "repo-title": "Annotation Tool",
-    "description": "An annotation tool, which distributes texts that may show a copyright issue when distributing the original text type, to several annotators without copyright issues.",
+    "description": "An annotation tool, which distributes texts that may show a copyright issue when distributing the original text type, to several annotators without copyright issues",
     "last-update": "7 November 2018",
     "download-link": "/static/zip/annotation-tool.zip"
   },
@@ -65,7 +65,14 @@
   {
     "repo-name": "paraphraser",
     "repo-title": "Paraphraser",
-    "description": "NLPCL paraphraser client.",
+    "description": "NLPCL paraphraser client",
+    "last-update": "7 November 2018",
+    "download-link": "/static/zip/paraphraser.zip"
+  },
+  {
+    "repo-name": "crawler",
+    "repo-title": "Crawler",
+    "description": "Crawler for Collecting Articles on Health",
     "last-update": "7 November 2018",
     "download-link": "/static/zip/paraphraser.zip"
   },

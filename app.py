@@ -42,5 +42,5 @@ if __name__ == '__main__':
     sys.path.append(base_dir)
 
     app.secret_key = config.Config.SECRET_KEY
-    FLASK_DEBUG = os.getenv('FLASK_DEBUG', True)
+    FLASK_DEBUG = os.getenv('FLASK_DEBUG', False)
     app.run(host='0.0.0.0', debug=FLASK_DEBUG, port=8080)

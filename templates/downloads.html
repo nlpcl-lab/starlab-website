@@ -23,30 +23,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <!--
-            Note: To add a new download entry, copy the template below and put it
-            outside this comment block and fill the details:
-                [DOWNLOAD-LINK], [REPO-NAME], [REPO-TITLE], [DESCRIPTION], [AUTHOR-ID], [AUTHOR-NAME].
-            The file itself has to be uploaded somewhere else.
-            Please make sure that the link works after you have added it.
-
-            <div class="post-preview">
-                <a href="[DOWNLOAD-LINK]" target="_blank" 
-                        onclick="javascript:logging('[REPO-NAME]')">
-                    <h2 class="post-title">
-                        [REPO-TITLE]
-                    </h2>
-                    <h3 class="post-subtitle">
-                        [DESCRIPTION] <br/>
-                    </h3>
-                </a>
-                <p class="post-meta">
-                    Total downloads: {{DownloadLog.objects.filter(key='[REPO-TITLE]').count()}} <br/>
-                    Last Update: [Date Month Year], by <a href="http://nlp.kaist.ac.kr/~[AUTHOR-ID]" target="_blank">
-                    [AUTHOR-NAME]</a>
-                </p>
-            </div>
-            -->
+            <!-- start of downloads-->
 
             {% for download in downloads %}
             <div class="post-preview">

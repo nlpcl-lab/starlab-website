@@ -7,6 +7,13 @@
     "download-link": "/static/zip/artext.zip"
   },
   {
+    "repo-name": "credibility-level-prediction",
+    "repo-title": "Prediction model for credibility level on tweets",
+    "description": "A model that predict credibility level on tweets. This provides two information about credibility level, namely, mean and variance of credibility level.",
+    "last-update": "15 November 2018",
+    "download-link": "/static/zip/credibility-level-prediction.zip"
+  },
+  {
     "repo-name": "summerization",
     "repo-title": "News Summarization",
     "description": "Tensorflow Implementation of Deep Learning Approach for News Summarization Task via Sequence-to-sequence Model with Pointer",

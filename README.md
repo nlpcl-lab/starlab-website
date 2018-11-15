@@ -18,8 +18,17 @@ Please make sure that the link works after you have added it.
 ```
 
 ## Run
+
+##### Start 
 ```bash
 sudo nohup python3 app.py &
+echo $! > save_pid.txt
+```
+
+##### Stop
+
+```bash
+kill -9 `cat save_pid.txt`
 ```
 
 ## Reference

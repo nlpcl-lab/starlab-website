@@ -28,7 +28,7 @@ echo $! > save_pid.txt
 ##### Stop
 
 ```bash
-kill -9 `cat save_pid.txt`
+sudo kill -9 `cat save_pid.txt`
 ```
 
 ## Reference

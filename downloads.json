@@ -14,6 +14,13 @@
     "download-link": "/static/zip/credibility-level-prediction.zip"
   },
   {
+    "repo-name": "text-credibility-prediction",
+    "repo-title": "Text Credibility Prediction",
+    "description": "This repository is for the credibility prediction of a document or a sentence.",
+    "last-update": "28 November 2018",
+    "download-link": "/static/zip/text-credibility-prediction.zip"
+  },
+  {
     "repo-name": "summerization",
     "repo-title": "News Summarization",
     "description": "Tensorflow Implementation of Deep Learning Approach for News Summarization Task via Sequence-to-sequence Model with Pointer",

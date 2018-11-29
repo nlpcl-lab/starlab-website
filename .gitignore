@@ -11,6 +11,7 @@
 *.iml
 .idea
 
+/test/
 __pycache__/
 config.py
 

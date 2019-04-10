@@ -19,16 +19,15 @@ Please make sure that the link works after you have added it.
 
 ## Run
 
-##### Start 
+## Run Service
 ```bash
-sudo nohup python3 app.py &
-echo $! > save_pid.txt
+sudo python3 app.py
 ```
 
-##### Stop
-
+## Deploy
 ```bash
-sudo kill -9 `cat save_pid.txt`
+pip install fabric3
+fab deploy
 ```
 
 ## Reference

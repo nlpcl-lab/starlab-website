@@ -8,3 +8,6 @@ class Config:
         'username': 'YOUR_DB_USERNAME',
         'password': 'YOUR_DB_PASSWORD',
     }
+
+    DEPLOY_HOSTS = ['admin@example.com:22']
+    DEPLOY_PASSWORDS = {'admin@example.com:22': 'password'}

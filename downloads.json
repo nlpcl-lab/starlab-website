@@ -15,7 +15,7 @@
   },
   {
     "repo-name": "sentential_argument_generation",
-    "repo-title": "Annotation quality control via two-step reason selection",
+    "repo-title": "sentential_argument_generation",
     "description": "Code for the NLP4IF 2019 paper \"ArgDiver: Generating Sentential Arguments from Diverse Perspectives on Controversial Topic\"",
     "last-update": "11 November 2019",
     "download-link": "/static/zip/sentential_argument_generation.zip"
@@ -30,7 +30,7 @@
   {
     "repo-name": "ted-talks-annotation",
     "repo-title": "ted-talks-annotation",
-    "description": "ted-talks-annotation",
+    "description": "Annotation of Tension Development in TED talks",
     "last-update": "11 November 2019",
     "download-link": "/static/zip/ted-talks-annotation.zip"
   },

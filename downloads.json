@@ -1,10 +1,38 @@
 [
   {
-    "repo-name": "artext",
-    "repo-title": "Artext: Artificial Text Generation",
-    "description": "Probabilistic Noising of Natural Language",
-    "last-update": "28 November 2018",
-    "download-link": "/static/zip/artext.zip"
+    "repo-name": "ace2005-preprocessing",
+    "repo-title": "ACE2005 preprocessing",
+    "description": "ACE 2005 corpus preprocessing for Event Extraction task",
+    "last-update": "11 November 2019",
+    "download-link": "/static/zip/ace2005-preprocessing.zip"
+  },
+  {
+    "repo-name": "bert-event-extraction",
+    "repo-title": "bert-event-extraction",
+    "description": "bert-event-extraction",
+    "last-update": "11 November 2019",
+    "download-link": "/static/zip/bert-event-extraction.zip"
+  },
+  {
+    "repo-name": "sentential_argument_generation",
+    "repo-title": "Annotation quality control via two-step reason selection",
+    "description": "Code for the NLP4IF 2019 paper \"ArgDiver: Generating Sentential Arguments from Diverse Perspectives on Controversial Topic\"",
+    "last-update": "11 November 2019",
+    "download-link": "/static/zip/sentential_argument_generation.zip"
+  },
+  {
+    "repo-name": "two-step-reason",
+    "repo-title": "Annotation quality control via two-step reason selection",
+    "description": "Annotation quality control via two-step reason selection (EMNLP-IJCNLP 2019)",
+    "last-update": "11 November 2019",
+    "download-link": "/static/zip/two-step-reason.zip"
+  },
+  {
+    "repo-name": "ted-talks-annotation",
+    "repo-title": "ted-talks-annotation",
+    "description": "ted-talks-annotation",
+    "last-update": "11 November 2019",
+    "download-link": "/static/zip/ted-talks-annotation.zip"
   },
   {
     "repo-name": "artext",

@@ -23,18 +23,19 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <!-- start of downloads-->
+            We moved our code packages to SourceForge (<a href="https://sourceforge.net/u/nlpcl-forge">https://sourceforge.net/u/nlpcl-forge</a>)
 
+            <!-- start of downloads-->
             {% for download in downloads %}
             <div class="post-preview">
                 <a href="{{download['download-link']}}" target="_blank"
-                   onclick='javascript:logging("{{download['repo-name']}}")'>
-                    <h2 class="post-title">
-                        {{download['repo-title']}}
-                    </h2>
-                    <h3 class="post-subtitle">
-                        {{download['description']}} <br/>
-                    </h3>
+                   onclick='javascript:logging("{{download[' repo-name']}}")'>
+                <h2 class="post-title">
+                    {{download['repo-title']}}
+                </h2>
+                <h3 class="post-subtitle">
+                    {{download['description']}} <br/>
+                </h3>
                 </a>
                 <p class="post-meta">
                     Total downloads: {{DownloadLog.objects.filter(key=download['repo-name']).count()}} <br/>

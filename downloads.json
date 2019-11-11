@@ -7,6 +7,13 @@
     "download-link": "/static/zip/artext.zip"
   },
   {
+    "repo-name": "artext",
+    "repo-title": "Artext: Artificial Text Generation",
+    "description": "Probabilistic Noising of Natural Language",
+    "last-update": "28 November 2018",
+    "download-link": "/static/zip/artext.zip"
+  },
+  {
     "repo-name": "credibility-level-prediction",
     "repo-title": "Prediction model for credibility level on tweets",
     "description": "A model that predict credibility level on tweets. This provides two information about credibility level, namely, mean and variance of credibility level.",

@@ -5,6 +5,7 @@
 # Python
 *.pyc
 *.mo
+venv/*
 
 /ENV/
 

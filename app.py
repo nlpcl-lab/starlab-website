@@ -31,6 +31,11 @@ def downloads_view():
         return render_template('downloads.html', downloads=downloads, DownloadLog=DownloadLog)
 
 
+@app.route('/apis')
+def apis_view():
+    return render_template('apis.html')
+
+
 @app.route('/api/download/log', methods=['POST'])
 def download_log():
     data = request.get_json()

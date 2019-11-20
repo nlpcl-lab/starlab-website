@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'base/head.html' %}
+
+<body>
+{% include 'base/navbar.html' %}
+
+<!-- Page Header -->
+<header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1 style="position: relative;">APIS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            You can try it right on this page, or click on the title to go to our demo site.
+
+            <div class="post-preview">
+                <a href="http://credon.kaist.ac.kr:5678/" target="_blank">
+                    <h2 class="post-title">
+                        UltraFAST
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Writing Assistant System
+                    </h3>
+                    <iframe src="http://credon.kaist.ac.kr:5678" width="800px" height="500px"></iframe>
+                </a>
+            </div>
+            <div class="post-preview">
+                <a href="http://nlpgpu3.kaist.ac.kr:8081/" target="_blank">
+                    <h2 class="post-title">
+                        LOLOL
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Humor Candidates Generation for Presentation
+                    </h3>
+                    <iframe src="http://nlpgpu3.kaist.ac.kr:8081/" width="800px" height="500px"></iframe>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include 'base/footer.html' %}
+{% include 'base/script.html' %}
+
+
+</body>
+
+</html>

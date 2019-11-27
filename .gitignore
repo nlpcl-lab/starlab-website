@@ -19,3 +19,5 @@ config.py
 static/zip/
 static/data/
 save_pid.txt
+
+.vscode

@@ -4,7 +4,8 @@
     "repo-title": "ACE2005 preprocessing",
     "description": "ACE 2005 corpus preprocessing for Event Extraction task",
     "last-update": "11 November 2019",
-    "download-link": "/static/zip/ace2005-preprocessing.zip"
+    "download-link": "/static/zip/ace2005-preprocessing.zip",
+    "default-download-count": 1
   },
   {
     "repo-name": "bert-event-extraction",
@@ -39,104 +40,119 @@
     "repo-title": "Artext: Artificial Text Generation",
     "description": "Probabilistic Noising of Natural Language",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/artext.zip"
+    "download-link": "/static/zip/artext.zip",
+    "default-download-count": 97
   },
   {
     "repo-name": "credibility-level-prediction",
     "repo-title": "Prediction model for credibility level on tweets",
     "description": "A model that predict credibility level on tweets. This provides two information about credibility level, namely, mean and variance of credibility level.",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/credibility-level-prediction.zip"
+    "download-link": "/static/zip/credibility-level-prediction.zip",
+    "default-download-count": 53
   },
   {
     "repo-name": "text-credibility-prediction",
     "repo-title": "Text Credibility Prediction",
     "description": "This repository is for the credibility prediction of a document or a sentence.",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/text-credibility-prediction.zip"
+    "download-link": "/static/zip/text-credibility-prediction.zip",
+    "default-download-count": 1
   },
   {
     "repo-name": "summerization",
     "repo-title": "News Summarization",
     "description": "Tensorflow Implementation of Deep Learning Approach for News Summarization Task via Sequence-to-sequence Model with Pointer",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/summerization.zip"
+    "download-link": "/static/zip/summerization.zip",
+    "default-download-count": 70
   },
   {
     "repo-name": "event-extraction",
     "repo-title": "Event Extraction",
     "description": "Tensorflow Implementation of Deep Learning Approach for Event Extraction(ACE 2005) via Dynamic Multi-Pooling Convolutional Neural Networks",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/event-extraction.zip"
+    "download-link": "/static/zip/event-extraction.zip",
+    "default-download-count": 70
   },
   {
     "repo-name": "gender-stereotyping-word-embedding",
     "repo-title": "Mitigating Stereotypes in Word Embedding",
     "description": "Mitigating Stereotypes in Word Embedding through Sentiment Modulation",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/gender-stereotyping-word-embedding.zip"
+    "download-link": "/static/zip/gender-stereotyping-word-embedding.zip",
+    "default-download-count": 84
   },
   {
     "repo-name": "annotation-tool",
     "repo-title": "Annotation Tool",
     "description": "An annotation tool, which distributes texts that may show a copyright issue when distributing the original text type, to several annotators without copyright issues",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/annotation-tool.zip"
+    "download-link": "/static/zip/annotation-tool.zip",
+    "default-download-count": 77
   },
   {
     "repo-name": "monolingual-sentence-aligner",
     "repo-title": "Monolingual Sentence Aligner",
     "description": "Monolingual Sentence Aligner",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/monolingual-sentence-aligner.zip"
+    "download-link": "/static/zip/monolingual-sentence-aligner.zip",
+    "default-download-count": 62
   },
   {
     "repo-name": "automatic-tension-detection",
     "repo-title": "Automatic Tension Detection",
     "description": "Automatic tension detection, based on the linguistic features revealed in the target document.",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/automatic-tension-detection.zip"
+    "download-link": "/static/zip/automatic-tension-detection.zip",
+    "default-download-count": 65
   },
   {
     "repo-name": "context-dependent-evidence-detection",
     "repo-title": "Context Dependent Evidence Detection ",
     "description": "This repository is for the task of context-dependent-evidence-detection (CDED), which was initially introduced by <Rinott, Ruty, et al. \"Show me your evidence-an automatic method for context dependent evidence detection.\" EMNLP 2015.>",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/context-dependent-evidence-detection.zip"
+    "download-link": "/static/zip/context-dependent-evidence-detection.zip",
+    "default-download-count": 69
   },
   {
     "repo-name": "argument-reasoning-comprehension",
     "repo-title": "Argument Reasoning Comprehension",
     "description": "The codes, targeting a task: SemEval 2018 Task12, the argument reasoning comprehension task.",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/argument-reasoning-comprehension.zip"
+    "download-link": "/static/zip/argument-reasoning-comprehension.zip",
+    "default-download-count": 64
   },
   {
     "repo-name": "paraphraser",
     "repo-title": "Paraphraser",
     "description": "NLPCL paraphraser client",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/paraphraser.zip"
+    "download-link": "/static/zip/paraphraser.zip",
+    "default-download-count": 62
   },
   {
     "repo-name": "crawler",
     "repo-title": "Crawler",
     "description": "Crawler for Collecting Articles on Health",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/crawler.zip"
+    "download-link": "/static/zip/crawler.zip",
+    "default-download-count": 70
   },
   {
     "repo-name": "starlab-website",
     "repo-title": "Starlab Website",
     "description": "This is a homepage that introduces NLP☆CL - StarLab.",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/starlab-website.zip"
+    "download-link": "/static/zip/starlab-website.zip",
+    "default-download-count": 68
   },
   {
     "repo-name": "starlab-api",
     "repo-title": "Starlab API",
     "description": "Home of all CredOn APIs",
     "last-update": "28 November 2018",
-    "download-link": "/static/zip/starlab-api.zip"
+    "download-link": "/static/zip/starlab-api.zip",
+    "default-download-count": 1
   }
 ]

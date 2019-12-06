@@ -28,6 +28,15 @@ def index_view():
 def downloads_view():
     with open('./downloads.json') as f:
         downloads = json.load(f)
+        for download in downloads:
+            download['download-count'] = DownloadLog.objects.filter(key=download['repo-name']).count()
+
+            # In September 2019, our server was initialized, and we lost the download log data.
+            # This line restores the previous download count by adding the previous download count as the default.
+            # To prevent such data loss, we uploaded our code on SourceForge (https://sourceforge.net/u/nlpcl-forge).
+            if 'default-download-count' in download:
+                download['download-count'] += download['default-download-count']
+
         return render_template('downloads.html', downloads=downloads, DownloadLog=DownloadLog)
 
 
